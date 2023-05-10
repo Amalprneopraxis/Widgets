@@ -1,0 +1,38 @@
+[
+   
+  {
+    "type":"array",
+    "label":"Footer Links",
+    "id":"section",
+    "defaultCount":4,
+    "entryLabel":"Footer Links",
+    "schema":[
+       {
+          "type":"tab",
+          "label":"Content",
+          "sections":[
+             {
+                "settings":[  
+                  
+                  {
+                    "type": "input",
+                    "id": "Text",
+                    "label": "Name",
+                    "default": "Link"
+                  },  
+                                 
+                   {
+                      "label":"Link",
+                      "type":"input",
+                      "id":"link",
+                      "default":"#"
+                   }                                                                                              
+                                                                            
+                ]
+             }
+          ]
+       }
+    ]
+ }
+ 
+]
